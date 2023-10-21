@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('888.jpg');
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+
+        header {
+            
+            background-image: url('888.jpg');
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        nav {
+           
+            font-size: 24px;
+            padding: 20px;
+            background-color: #04438b84;
+            text-align: right;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .about {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-bottom: 100px;
+            background-color: rgba(137, 183, 224, 0.37);
+          
+        }
+        #logo {
+            border: 15px solid #000000;
+            border-radius: 50%;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+   
+
+        .education{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #04438b84;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-bottom: 100px;
+        }
+        .education li{
+            color:#000000;
+            font-size: 30px;
+        }
+        .education p{
+            color: #fff;
+        }
+        .projects {
+            background-color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #04438b84;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-bottom: 100px;
+        }
+        .skills{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #fff;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-bottom: 100px;
+            background-color: rgba(137, 183, 224, 0.37);
+            font-size: 25px;
+        }
+        .certificates {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-bottom: 100px;
+            background-color: rgba(137, 183, 224, 0.37);
+        }
+        .certificates li{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 25px;
+        }
+        .certificates li:hover{
+            color: #fff;
+        }
+        h2 {
+            font-size: 24px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .project-item {
+            border: 1px solid #000000;
+            padding: 20px;
+            
+        }
+        .projects p{
+            font-size: 25px;
+            color:#000000;
+        }
+        .contact{
+            background-color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #04438b84;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            padding-bottom: 100px;
+           
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            margin-left: 100px;
+            margin-top: 100px;
+
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #04438b84;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer-icons a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+
+        .footer-icons a:hover {
+            text-decoration: underline;
+        }
+        #one:hover{
+            background-color: red;
+        }
+        
+    </style>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; font-size:80px; color: #fff; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Welcome to my portfolio</h1>
+        <marquee behavior="" direction=""> <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;"> Hi there, Nice to see you here </p></marquee>
+       
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2 style="font-size: 40px; ">About Me</h2>
+        <p style="font-size: 25px;">Hi there, I'm Saniya S. Nayakodi,<br> recently completed my Bachelor of Engineering in Electronics and Communication Engineering <br>from Basaveshwar Engineering College, Bagalkote. Currently pursuing Full Stack Web Development course at Tap academy Bengaluru.</p>
+
+            <img src="PICR11.jpg" alt="Logo" id="logo">
+       
+    </section>
+
+    <section id="education" class="education">
+        <h2 style="font-size: 40px; ">Education</h2>
+        <ul>
+            <li><b>Bachelor of Engineering</b></li>
+            <p>Bachelor of Engineering in Electronics and Communication Engineering</p>
+            <p>Basaveshwar Engineering College, Bagalkote, YOP: 2023</p>
+            <p>Result: 7.70 CGPA</p>
+
+            <li><b>Intermediate</b></li>
+            <p>Tungal Science PU College, Vijayapura</p>
+            <p>Completed: June 2019</p>
+            <p>Result: 80.83% </p>
+
+            <li><b>SSC</b></li>
+            <p>S. R. Marimath High School, Shivanagi</p>
+            <p>Completed: April 2017</p>
+            <p>Result: 83.68% </p>
+        </ul>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 style="font-size: 40px; color: #000000;">Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>Electronics</li>
+            <li>Computer Networks</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 style="font-size: 40px; ">Projects</h2>
+        <div class="project-item">
+            <h3 style="color:#000000; font-size: 30px;">Smart bin with credit gain system</h3>
+            <p>This is major project which is made as a part of our curriculum. In
+                this project by using the user interface user can open and close the bin. The bin operation is controlled by the Arduino Uno. When user uses the bin points are credited to the respective account. It also
+                has a SMS/call mechanism which is controlled by the GSM module.</p>
+            <p>Duration: 10/2022 - 08/2023, Technology used: Electronics, Arduino IDE</p>
+        </div>
+        <div class="project-item">
+            <h3 style="color:#000000; font-size: 30px;">Automated solar grass cutter</h3>
+            <p>This is mini project which is made as a part of our curriculum. This project aims that developing a portable solar operated grass cutting machine, which reduces the consumption of fossil fuels by using solar power. The main target of this machine is to reduce human efforts and it is environment friendly and economical.</p>
+            <p>Duration: 03/2022 - 08/2022, Technology used: Electronics, Arduino IDE</p>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h2 style="font-size: 40px; color:#000000;">Certificates</h2>
+        <ul>
+            <li>IEEE professional student membership certification(2019 - 2022)</li>
+            <a href="https://drive.google.com/file/d/1aMJoYbywun0hGwMtWNhE7r9D9efI3l5M/view?usp=drive_link" target="_blank"><img src="cer.png" alt=""></a>
+            <li>NPTEL certification(10/2022)</li>
+            <a href="https://drive.google.com/file/d/1N9nH4TepeCe941mTTrD0qfKfwLjh2uPA/view?usp=drive_link" target="_blank"><img src="cer.png" alt=""></a>
+            <li>Certificate for completion of Arduino training (12/2021)</li>
+            <a href="https://drive.google.com/file/d/1dMaCQwblNKbXkLD6-bBiCY4Z1XFs0e_y/view?usp=drive_link" target="_blank"><img src="cer.png" alt=""></a>
+            <li>Gandhi Global Solar Yatra(GGSY) Workshop (10/2019)</li>
+            <a href="https://drive.google.com/file/d/13T4WuxqQQ59oZ8HriyQfoWQiT1-qFj6b/view?usp=drive_link" target="_blank"><img src="cer.png" alt=""></a>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 style="font-size: 40px; color: #fff;">Contact Me</h2>
+        <div class="contact-form">
+            <form action="tq.html">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <input type="submit" id="one" value="Send Message" >
+            </form>
+            <br>
+            <br>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.124140181863!2d75.9758576!3d16.820196499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc64d18470a798b%3A0xf5f4dc8ec051067e!2sShivanagi!5e0!3m2!1sen!2sin!4v1697893258817!5m2!1sen!2sin" width="420" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+    </section>
+
+    
+
+    <footer>
+        <div class="footer-icons">
+            <a href="https://instagram.com/_its_saniya_ashiyana_2k01_?igshid=NGVhN2U2NjQ0Yg==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/saniya-s-nayakodi-4950661a7" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/SaniyaSNayakodi" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:saniyanayakodi@gmail.com"><i class="far fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
